@@ -9,24 +9,24 @@ export function GallerySection() {
 
   const photos = [
   {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
-    alt: "Çiçek dekorasyonu",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
-    alt: "Hazırlık detayları",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
-    alt: "Evlilik hazırlığı 1",
-  },
-  {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik2.jpeg",
     alt: "Evlilik hazırlığı 2",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg",
     alt: "Evlilik hazırlığı 3",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
+    alt: "Evlilik hazırlığı 1",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
+    alt: "Çiçek dekorasyonu",
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
+    alt: "Hazırlık detayları",
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/hero2.JPG",
@@ -78,12 +78,11 @@ export function GallerySection() {
                 <ImageWithFallback
                   src={photo.src}
                   alt={photo.alt}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300"
                   onClick={() => setSelectedImage(photo.src)}
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-end">
                   <div className="p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                    <p className="text-sm">{photo.title}</p>
                   </div>
                 </div>
               </div>
