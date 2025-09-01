@@ -9,31 +9,6 @@ export function GallerySection() {
 
   const photos = [
   {
-    src: "https://images.unsplash.com/photo-1596026339984-e16bfa013cf7?...",
-    alt: "Romantic couple photo",
-    title: "İlk Karşılaşma"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1622277583249-4c1fad490804?...",
-    alt: "Wedding photography moments",
-    title: "Nişan Fotoğrafları"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1664312696723-173130983e27?...",
-    alt: "Wedding bouquet",
-    title: "Çiçek Seçimi"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1669859084638-58a250915fed?...",
-    alt: "Wedding rings",
-    title: "Evlilik Teklifi"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1674924258890-f4a5d99bb28c?...",
-    alt: "Wedding venue",
-    title: "Mekan Seçimi"
-  },
-  {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
     alt: "Çiçek dekorasyonu",
     title: "Çiçek"
