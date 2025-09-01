@@ -86,7 +86,7 @@ export function RSVPSection() {
             </div>
 
             <div>
-              <Label>Katılım Durumunuz *</Label>
+            <Label>Katılım Durumunuz *</Label>
               <RadioGroup 
                 value={formData.attendance} 
                 onValueChange={(value) => setFormData({ ...formData, attendance: value })}
@@ -96,8 +96,13 @@ export function RSVPSection() {
                   <RadioGroupItem value="yes" id="yes" />
                   <Label htmlFor="yes">Evet, kesinlikle katılacağım! 🎉</Label>
                 </div>
+                <div className="flex items-center space-x-2">
+                  <RadioGroupItem value="no" id="no" />
+                  <Label htmlFor="no">Maalesef katılamayacağım 😔</Label>
+                </div>
               </RadioGroup>
             </div>
+
 
             <div>
               <Label htmlFor="message">Mesajınız</Label>

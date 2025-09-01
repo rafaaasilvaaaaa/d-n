@@ -36,7 +36,7 @@ export function StorySection() {
             <ImageWithFallback
               src="https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg"
               alt="Wedding bouquet"
-              className="w-full h-[600px] object-cover rounded-lg shadow-lg"
+              className="w-full h-[500px] object-cover rounded-lg shadow-lg"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ export function StorySection() {
             <ImageWithFallback
               src="https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg"
               alt="Wedding rings"
-              className="w-full h-[600px] object-cover rounded-lg shadow-lg"
+              className="w-full h-[500px] object-cover rounded-lg shadow-lg"
             />
           </div>
 
