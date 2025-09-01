@@ -11,67 +11,50 @@ export function GallerySection() {
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
     alt: "Çiçek dekorasyonu",
-    title: "Çiçek"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
     alt: "Hazırlık detayları",
-    title: "Detaylar"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
     alt: "Evlilik hazırlığı 1",
-    title: "Evlilik 1"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik2.jpeg",
     alt: "Evlilik hazırlığı 2",
-    title: "Evlilik 2"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg",
     alt: "Evlilik hazırlığı 3",
-    title: "Evlilik 3"
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik4.jpeg",
-    alt: "Evlilik hazırlığı 4",
-    title: "Evlilik 4"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/hero2.JPG",
     alt: "Hero arka plan görseli",
-    title: "Hero Fotoğraf"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan1.jpeg",
     alt: "Nişan töreni",
-    title: "Nişan 1"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan2.JPG",
     alt: "Nişan kutlaması",
-    title: "Nişan 2"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan3.JPG",
     alt: "Nişan pastası",
-    title: "Nişan 3"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisannn.jpeg",
     alt: "Nişan detayları",
-    title: "Nişan 4"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni.JPG",
     alt: "Üniversite anısı",
-    title: "Üniversite 1"
   },
   {
     src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni2.JPG",
     alt: "Üniversite yılları",
-    title: "Üniversite 2"
   }
 ];
 
