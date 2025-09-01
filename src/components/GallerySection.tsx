@@ -91,7 +91,7 @@ export function GallerySection() {
         </div>
 
 
-        {/* Modal for enlarged image */}
+        {/* Modal for enlarged imagee */}
         {selectedImage && (
           <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
             <div className="relative max-w-4xl max-h-full">

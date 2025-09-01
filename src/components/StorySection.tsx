@@ -1,7 +1,7 @@
 import { Card } from './ui/card';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Button } from './ui/button';
-
+//
 export function StorySection() {
   return (
     <section id="story" className="py-20 bg-secondary/20">
