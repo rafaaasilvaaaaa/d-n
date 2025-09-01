@@ -20,18 +20,14 @@ export function StorySection() {
             <Card className="p-6">
               <h3 className="text-xl mb-3 text-primary">İlk Karşılaşma</h3>
               <p className="text-muted-foreground leading-relaxed">
-                2019 yılının Mart ayında, üniversitenin bilgisayar mühendisliği bölümünün birinci sınıfında tanıştık. 
-                O gün kendisiyle telefondan iletişime geçtim ve akşam uzun uzun sohbet ettik. İlk konuşmamızda bile 
-                birbirimizi çok önceden tanıyormuşuz gibi hissettik, zamanın nasıl geçtiğini anlamadık.
+                2019 yılının Mart ayında,üniversitenin bilgisayar mühendisliği bölümünün birinci sınıfında tanıştık.İlk bakışta bir şeyler farklıydı…O gün akşam, telefonda kendisiyle uzun uzun sohbet ettik.İlk konuşmada bile birbirimizi daha önceden tanıyormuşuz gibi hissettik.Zamanın nasıl geçtiğini anlamadık bile; çünkü o an, sadece bir sohbet değil, bir başlangıçtı bizim için.
               </p>
             </Card>
 
             <Card className="p-6">
               <h3 className="text-xl mb-3 text-primary">İlk Randevu</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Bir hafta sonra Mehmet cesaretini topladı ve kahve içmeye davet etti Ayşe'yi. 
-                Galata Köprüsü'nde yürüyüş yapıp, küçük bir kafede saatlerce sohbet ettik. 
-                O günden sonra her gün biraz daha yakınlaştık.
+                İlk buluşmamız, Zonguldak’ta denizin kıyısında yer alan All In isimli restoranda gerçekleşti. Harika bir ambiyansta, mekânın sakinliği ve deniz manzarası sohbetimize eşlik etti. Zamanın nasıl geçtiğini anlamadık. Her şey o kadar rahattı ki, sanki ilk buluşma değil de uzun zamandır tanışıyor gibiydik. Gecenin sonunda onu yurduna bırakırken içimde tarifsiz bir mutluluk vardı. Daha en başından beri ona karşı hislerim çok yoğundu; o akşam bu duyguların ne kadar derin olduğunu bir kez daha fark ettim.
               </p>
             </Card>
           </div>
@@ -58,9 +54,8 @@ export function StorySection() {
             <Card className="p-6">
               <h3 className="text-xl mb-3 text-primary">Evlilik Teklifi</h3>
               <p className="text-muted-foreground leading-relaxed">
-                2023 yılının baharında, Ayşe'nin en sevdiği yer olan Büyükada'da yaptı Mehmet 
-                evlilik teklifini. Güneşin batışını izlerken, diz çöküp "Benimle evlenir misin?" 
-                diye sordu. Tabii ki cevabımız "Evet!" oldu.
+                Kocaeli’nin Kandıra ilçesinde, denizin hemen kıyısında, sade ama anlamı çok büyük bir masa hazırlamıştım. Buket o sırada Ankara’da olduğumu sanıyordu. Oysa ben iki gün önceden gelip arkadaşlarımızla beraber her detayıyla ilgilenmiş, o anı unutulmaz kılmak için gizlice hazırlık yapmıştım. Her şeyin onun için sürpriz olmasını istiyordum.
+Beni karşısında gördüğünde şaşkınlıktan gözyaşlarına hakim olamadı. O an, tüm yorgunluğa ve heyecana değdi.Diz çöktüm ve ona üç kelime söyledim: Benimle evlenir misin? Ve o da gülümseyerek, gözleri dolu dolu “Evet” dedi.
               </p>
               <Button>Bu güzel anımızı izlemek için tıklayınız</Button>
             </Card>
