@@ -24,31 +24,42 @@ export function RSVPSection() {
     accommodation: false
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email || !formData.attendance) {
-      toast.error('Lütfen gerekli alanları doldurun.');
-      return;
-    }
-    
-    // Bu gerçek bir uygulamada API'ye gönderilir
-    console.log('RSVP Data:', formData);
-    toast.success('RSVP\'niz başarıyla gönderildi! Teşekkür ederiz.');
-    
-    // Formu sıfırla
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      attendance: '',
-      guestCount: '1',
-      dietaryRestrictions: '',
-      song: '',
-      message: '',
-      transportation: false,
-      accommodation: false
+
+
+  const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!formData.name || !formData.email || !formData.attendance) {
+    toast.error('Lütfen gerekli alanları doldurun.');
+    return;
+  }
+
+  try {
+    await fetch('https://script.google.com/macros/s/AKfycbwE18mOx7xQJ_kPEsBfO8TuzW6q20fceySvWozHA7xNNuZk0kBuKMlXV24jS-9bXHGJlA/exec', {
+      method: 'POST',
+      body: JSON.stringify(formData),
     });
-  };
+
+    toast.success("RSVP'niz başarıyla Google Sheets'e kaydedildi!");
+  } catch (err) {
+    console.error('Sheets API hatası:', err);
+    toast.error("Kayıt sırasında hata oluştu.");
+  }
+
+  // Formu sıfırla
+  setFormData({
+    name: '',
+    email: '',
+    phone: '',
+    attendance: '',
+    guestCount: '1',
+    dietaryRestrictions: '',
+    song: '',
+    message: '',
+    transportation: false,
+    accommodation: false
+  });
+};
 
   return (
     <section id="rsvp" className="py-20 bg-primary/5">

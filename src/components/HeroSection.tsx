@@ -1,6 +1,7 @@
 import { Button } from './ui/button';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 
+
 export function HeroSection() {
   const scrollToRSVP = () => {
     const element = document.querySelector('#rsvp');
@@ -13,7 +14,7 @@ export function HeroSection() {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1596026339984-e16bfa013cf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY291cGxlJTIwcm9tYW50aWN8ZW58MXx8fHwxNzU2NDc4OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+          src="../src/images/hero2.JPG"
           alt="Romantic wedding couple"
           className="w-full h-full object-cover"
         />
