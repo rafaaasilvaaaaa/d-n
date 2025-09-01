@@ -28,7 +28,7 @@ export function WeddingDetails() {
           {/* Sol taraf: Davetiye görseli */}
           <div className="flex justify-center lg:justify-end items-start">
             <ImageWithFallback
-              src="public/images/davetiye.JPG"
+              src="build/images/davetiye.JPG"
               alt="Düğün Davetiyesi"
               className="max-w-lg w-full h-auto rounded-lg shadow-lg"
             />

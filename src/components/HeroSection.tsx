@@ -14,7 +14,7 @@ export function HeroSection() {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <ImageWithFallback
-          src="/public/images/hero2.JPG"
+          src="https://raw.githubusercontent.com/rafaaasilvaaaaa/d-n/main/build/images/hero2.JPG"
           alt="Romantic wedding couple"
           className="w-full h-full object-cover"
         />
