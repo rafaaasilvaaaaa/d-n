@@ -38,7 +38,7 @@ export function StorySection() {
 
           <div className="relative">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1664312696723-173130983e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwZmxvd2VycyUyMGJvdXF1ZXR8ZW58MXx8fHwxNzU2NTAwNzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg"
               alt="Wedding bouquet"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
@@ -48,7 +48,7 @@ export function StorySection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative order-2 md:order-1">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1669859084638-58a250915fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcmluZ3MlMjBnb2xkfGVufDF8fHx8MTc1NjUwMDc0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg"
               alt="Wedding rings"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />

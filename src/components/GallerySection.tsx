@@ -8,32 +8,98 @@ export function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const photos = [
-    {
-      src: "https://images.unsplash.com/photo-1596026339984-e16bfa013cf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwY291cGxlJTIwcm9tYW50aWN8ZW58MXx8fHwxNzU2NDc4OTk0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Romantic couple photo",
-      title: "İlk Karşılaşma"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1622277583249-4c1fad490804?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcGhvdG9ncmFwaHklMjBtb21lbnRzfGVufDF8fHx8MTc1NjQ4ODE5OXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Wedding photography moments",
-      title: "Nişan Fotoğrafları"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1664312696723-173130983e27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwZmxvd2VycyUyMGJvdXF1ZXR8ZW58MXx8fHwxNzU2NTAwNzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Wedding bouquet",
-      title: "Çiçek Seçimi"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1669859084638-58a250915fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwcmluZ3MlMjBnb2xkfGVufDF8fHx8MTc1NjUwMDc0Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Wedding rings",
-      title: "Evlilik Teklifi"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1674924258890-f4a5d99bb28c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWRkaW5nJTIwdmVudWUlMjBlbGVnYW50fGVufDF8fHx8MTc1NjQ2NDM0M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      alt: "Wedding venue",
-      title: "Mekan Seçimi"
-    }
-  ];
+  {
+    src: "https://images.unsplash.com/photo-1596026339984-e16bfa013cf7?...",
+    alt: "Romantic couple photo",
+    title: "İlk Karşılaşma"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1622277583249-4c1fad490804?...",
+    alt: "Wedding photography moments",
+    title: "Nişan Fotoğrafları"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1664312696723-173130983e27?...",
+    alt: "Wedding bouquet",
+    title: "Çiçek Seçimi"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1669859084638-58a250915fed?...",
+    alt: "Wedding rings",
+    title: "Evlilik Teklifi"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1674924258890-f4a5d99bb28c?...",
+    alt: "Wedding venue",
+    title: "Mekan Seçimi"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
+    alt: "Çiçek dekorasyonu",
+    title: "Çiçek"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
+    alt: "Hazırlık detayları",
+    title: "Detaylar"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
+    alt: "Evlilik hazırlığı 1",
+    title: "Evlilik 1"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik2.jpeg",
+    alt: "Evlilik hazırlığı 2",
+    title: "Evlilik 2"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg",
+    alt: "Evlilik hazırlığı 3",
+    title: "Evlilik 3"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik4.jpeg",
+    alt: "Evlilik hazırlığı 4",
+    title: "Evlilik 4"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/hero2.JPG",
+    alt: "Hero arka plan görseli",
+    title: "Hero Fotoğraf"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan1.jpeg",
+    alt: "Nişan töreni",
+    title: "Nişan 1"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan2.JPG",
+    alt: "Nişan kutlaması",
+    title: "Nişan 2"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan3.JPG",
+    alt: "Nişan pastası",
+    title: "Nişan 3"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisannn.jpeg",
+    alt: "Nişan detayları",
+    title: "Nişan 4"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni.JPG",
+    alt: "Üniversite anısı",
+    title: "Üniversite 1"
+  },
+  {
+    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni2.JPG",
+    alt: "Üniversite yılları",
+    title: "Üniversite 2"
+  }
+];
+
 
   return (
     <section id="gallery" className="py-20">
