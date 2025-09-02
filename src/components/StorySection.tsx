@@ -75,11 +75,26 @@ export function StorySection() {
                 O an, tüm yorgunluğa ve heyecana değdi. Diz çöktüm ve ona üç kelime söyledim: “Benimle evlenir misin?” 
                 Ve o da gülümseyerek, gözleri dolu dolu “Evet” dedi.
               </p>
-              <Button
+             <Button
                 onClick={() => setIsModalOpen(true)}
-                className="transition-all duration-200 ease-in-out hover:scale-105 hover:shadow-lg hover:bg-primary/90 cursor-pointer"
+                style={{
+                  backgroundColor: 'var(--color-rose-300)',
+                  margin: 'auto',
+                  color: 'white',
+                  fontWeight: 500,
+                  padding: '1.5rem 1.25rem',
+                  borderRadius: '9999px', // Tam yuvarlak (pill form)
+                  boxShadow: '0 2px 6px rgba(0, 0, 0, 0.1)',
+                  marginTop: '1rem',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '0.5rem',
+                  cursor: 'pointer',
+                  fontSize: '1rem',
+                  width: 'fit-content',
+                }}
               >
-                Bu güzel anımızı izlemek için tıklayınız
+                🎥 Bu anı izle
               </Button>
             </Card>
 
@@ -108,7 +123,7 @@ export function StorySection() {
               <iframe
                 src="https://drive.google.com/file/d/1eWv36cCPbJZzaikbYhdF6u4viv8zJj5k/preview"
                 width="100%"
-                height="600"
+                height="700"
                 allow="autoplay"
                 className="rounded-b"
               ></iframe>
