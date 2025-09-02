@@ -44,11 +44,51 @@ export function WeddingDetails() {
                 bizim için çok kıymetli olacak. Ailemizin ve sevdiklerimizin şahitliğinde 
                 atacağımız bu adımda sizleri de aramızda görmekten onur duyarız.
               </p>
-              <p className="font-medium text-primary">
-                13 Eylül 2025 • Kocaeli  
-                <br />
-                20 Eylül 2025 • Kırşehir
-              </p>
+            </div>
+            <div className="space-y-8">
+              <div className="space-y-2">
+                <h4 className="text-xl font-semibold text-primary">13 Eylül 2025 • Kocaeli</h4>
+                <a
+                  href="https://www.google.com/maps?q=Yenikent+Mahallesi+2406+Sk+41400+Gebze+Kocaeli"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative group"
+                >
+                <iframe
+                    src="https://www.google.com/maps?q=Yenikent+Mahallesi+2406+Sk+41400+Gebze+Kocaeli&output=embed"
+                    width="100%"
+                    height="156"
+                    allowFullScreen
+                    loading="lazy"
+                    className="rounded-md border"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition">
+                    <span className="text-white font-semibold text-sm">Google Maps’te Aç</span>
+                  </div>
+                </a>
+              </div>
+
+              <div className="space-y-2">
+                <h4 className="text-xl font-semibold text-primary">20 Eylül 2025 • Kırşehir</h4>
+                <a
+                  href="https://www.google.com/maps?q=Kuşdilli,+1334.+Sk.,+40100+Kırşehir+Merkez/Kırşehir"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block relative group"
+                >
+                  <iframe
+                    src="https://www.google.com/maps?q=Kuşdilli,+1334.+Sk.,+40100+Kırşehir+Merkez/Kırşehir&output=embed"
+                    width="100%"
+                    height="156"
+                    allowFullScreen
+                    loading="lazy"
+                    className="rounded-md border"
+                  />
+                  <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition">
+                    <span className="text-white font-semibold text-sm">Google Maps’te Aç</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </Card>
         </div>

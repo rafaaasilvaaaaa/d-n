@@ -11,7 +11,7 @@ export function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex items-end justify-center overflow-hidden">
       <div className="absolute inset-0">
         <ImageWithFallback
           src="https://raw.githubusercontent.com/rafaaasilvaaaaa/d-n/main/build/images/hero2.JPG"
@@ -23,16 +23,16 @@ export function HeroSection() {
       
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
         <div className="mb-8">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl mb-4 font-serif">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl mb-4 font-serif drop-shadow-xl">
             Buket <span className="text-rose-300">&</span> Mutluhan
           </h1>
-          <p className="text-xl md:text-2xl mb-2 opacity-90">
+          <p className="text-xl md:text-2xl mb-2 opacity-100 drop-shadow-xl">
             Birlikte yazacağımız yeni hikayenin başlangıcı
           </p>
-          <p className="text-lg md:text-xl opacity-80">
+          <p className="text-lg md:text-xl opacity-100 drop-shadow-xl">
             13 Eylül 2025 • Kocaeli
           </p>
-          <p className="text-lg md:text-xl opacity-80">
+          <p className="text-lg md:text-xl opacity-100 drop-shadow-xl">
             20 Eylül 2025 • Kırşehir
           </p>
         </div>
@@ -43,15 +43,15 @@ export function HeroSection() {
             size="lg" 
             className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg"
           >
-            Katılım Bildiriniz
+            Anı Bırak ✍️
           </Button>
           <Button 
             variant="outline" 
             size="lg"
-            className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg"
+            className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg mb-8"
             onClick={() => document.querySelector('#details')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Detayları Görün
+            Davetlisiniz 🎉
           </Button>
         </div>
       </div>
