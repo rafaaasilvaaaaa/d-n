@@ -8,56 +8,55 @@ export function GallerySection() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const photos = [
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik2.jpeg",
-    alt: "Evlilik hazırlığı 2",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg",
-    alt: "Evlilik hazırlığı 3",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
-    alt: "Evlilik hazırlığı 1",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
-    alt: "Çiçek dekorasyonu",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
-    alt: "Hazırlık detayları",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/hero2.JPG",
-    alt: "Hero arka plan görseli",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan1.jpeg",
-    alt: "Nişan töreni",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan2.JPG",
-    alt: "Nişan kutlaması",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan3.JPG",
-    alt: "Nişan pastası",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisannn.jpeg",
-    alt: "Nişan detayları",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni.JPG",
-    alt: "Üniversite anısı",
-  },
-  {
-    src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni2.JPG",
-    alt: "Üniversite yılları",
-  }
-];
-
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik2.jpeg",
+      alt: "Evlilik hazırlığı 2",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik3.jpeg",
+      alt: "Evlilik hazırlığı 3",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/evlilik1.jpeg",
+      alt: "Evlilik hazırlığı 1",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/cicek.jpeg",
+      alt: "Çiçek dekorasyonu",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/detay.jpeg",
+      alt: "Hazırlık detayları",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/hero2.JPG",
+      alt: "Hero arka plan görseli",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan1.jpeg",
+      alt: "Nişan töreni",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan2.JPG",
+      alt: "Nişan kutlaması",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisan3.JPG",
+      alt: "Nişan pastası",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/nisannn.jpeg",
+      alt: "Nişan detayları",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni.JPG",
+      alt: "Üniversite anısı",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/uni2.JPG",
+      alt: "Üniversite yılları",
+    }
+  ];
 
   return (
     <section id="gallery" className="py-20">
@@ -71,6 +70,8 @@ export function GallerySection() {
           </p>
         </div>
 
+
+        {/* Diğer görseller */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {photos.map((photo, index) => (
             <Card key={index} className="overflow-hidden group cursor-pointer hover:shadow-lg transition-shadow">
@@ -82,18 +83,42 @@ export function GallerySection() {
                   onClick={() => setSelectedImage(photo.src)}
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-end">
-                  <div className="p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity">
-                  </div>
+                  <div className="p-4 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
                 </div>
               </div>
             </Card>
           ))}
         </div>
 
+        {/* Özel görsel: Ortalanmış ve daha küçük */}
+        <div className="flex flex-col items-center mb-12 space-y-6">
+          <h1 className="text-center text-muted-foreground text-xl italic mt-2">
+            🌟 High Score: <span className="text-primary">📸 Son kare açıldı!</span>
+          </h1>
+          <Card className="overflow-hidden max-w-md w-full group cursor-pointer hover:shadow-lg transition-shadow">
+            <div className="relative overflow-hidden">
+              <ImageWithFallback
+                src="https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/buket-mutluhan.jpg"
+                alt="Buket & Mutluhan"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+                onClick={() =>
+                  setSelectedImage(
+                    "https://cdn.jsdelivr.net/gh/rafaaasilvaaaaa/d-n@main/build/images/buket-mutluhan.jpg"
+                  )
+                }
+              />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-end" />
+            </div>
+          </Card>
+        </div>
 
-        {/* Modal for enlarged imagee */}
+
+        {/* Modal for enlarged image */}
         {selectedImage && (
-          <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4" onClick={() => setSelectedImage(null)}>
+          <div
+            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+            onClick={() => setSelectedImage(null)}
+          >
             <div className="relative max-w-4xl max-h-full">
               <Button
                 variant="ghost"
